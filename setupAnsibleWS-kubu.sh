@@ -14,6 +14,10 @@ sudo apt-get -y install open-vm-tools-desktop sshpass openssh-server openssh-cli
 #xrdp
 sudo apt install xrdp -y
 sudo sed -i "s/crypt_level=high/crypt_level=none/" /etc/xrdp/xrdp.ini
+# Turn compositor off via Settings->Display and Monitor->Compositor, uncheck Compositing: Enable on startup, reboot.
+echo "=============================="
+echo "==== Turn compositor off via Settings->Display and Monitor->Compositor, uncheck Compositing: Enable on startup, reboot."
+echo "=============================="
 
 #Configure ssh server
 sudo cp /etc/ssh/ssh_config /etc/ssh_ssh_config_org
