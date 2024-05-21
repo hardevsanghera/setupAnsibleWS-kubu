@@ -50,7 +50,5 @@ ansible-galaxy collection install community.vmware
 ansible-galaxy collection install nutanix.ncp
 
 #Install vscode
-#sudo apt-get update
-#sudo apt-get install code
-sudo snap install code --classic
 #You will need to install your extensions
+sudo snap install code --classic
